@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#123b32"><meta name="description" content="Thembelihle — community, NPO, business and education platform">
+<link rel="manifest" href="manifest.json"><link rel="stylesheet" href="styles.css">
+<title>Thembelihle</title>
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="#"><span class="brand-mark">T</span><span><b>Thembelihle</b><small>Growing together</small></span></a>
+  <nav><a href="#services">Services</a><a href="#about">About</a><button class="btn btn-outline" id="adminOpen">Admin</button></nav>
+</header>
+<main>
+<section class="hero">
+ <div class="hero-copy"><span class="eyebrow">ONE PLATFORM · MANY POSSIBILITIES</span>
+ <h1>Building stronger<br><em>communities together.</em></h1>
+ <p>Connect with opportunities, community projects, business services and learning resources — all in one place.</p>
+ <div class="hero-actions"><a class="btn btn-primary" href="#services">Explore the platform</a><button class="btn btn-light" id="joinOpen">Join Thembelihle</button></div>
+ <div class="trust"><span>● Community first</span><span>● Open opportunities</span><span>● Learn and grow</span></div></div>
+ <div class="hero-art"><div class="orb orb-one"></div><div class="orb orb-two"></div><div class="art-card"><span class="art-icon">✦</span><h3>Better together.</h3><p>People · Purpose · Progress</p><div class="art-line"></div><div class="art-stats"><span><b>4</b><small>Core areas</small></span><span><b>1</b><small>Shared platform</small></span></div></div></div>
+</section>
+<section class="section" id="services"><div class="section-head"><div><span class="eyebrow">DISCOVER THE PLATFORM</span><h2>Everything in one place</h2></div><p>Choose an area to explore. More features can be added as the platform grows.</p></div>
+ <div class="service-grid">
+  <article class="service-card"><div class="service-icon green">♡</div><h3>NPO Management</h3><p>Support community projects, learn about programmes and register as a beneficiary or volunteer.</p><button data-area="NPO Management" class="text-link">Explore NPO <span>→</span></button></article>
+  <article class="service-card"><div class="service-icon gold">▣</div><h3>Business Services</h3><p>Discover services and products, enquire about opportunities and connect with local enterprise.</p><button data-area="Business Services" class="text-link">Explore business <span>→</span></button></article>
+  <article class="service-card"><div class="service-icon blue">◎</div><h3>Community</h3><p>Find announcements, community events and ways to get involved as a volunteer.</p><button data-area="Community" class="text-link">Explore community <span>→</span></button></article>
+  <article class="service-card"><div class="service-icon purple">▤</div><h3>Education</h3><p>Explore learning opportunities, register your interest and access study resources.</p><button data-area="Education" class="text-link">Explore education <span>→</span></button></article>
+ </div>
+</section>
+<section class="band" id="about"><div><span class="eyebrow">OUR PURPOSE</span><h2>One connected place<br>for progress.</h2></div><p>Thembelihle brings community support, enterprise and learning into one accessible digital home. The platform is designed to grow with the needs of its users.</p></section>
+<section class="section updates"><div class="section-head"><div><span class="eyebrow">STAY CONNECTED</span><h2>Get involved</h2></div><p>Leave your details and the team can follow up when registration services are connected.</p></div><form id="joinForm" class="join-form"><label>Your name<input name="name" required placeholder="Full name"></label><label>Email or phone<input name="contact" required placeholder="Email address or phone number"></label><label>I'm interested in<select name="interest"><option>NPO programmes</option><option>Business services</option><option>Community events</option><option>Education and training</option><option>Volunteering</option></select></label><button class="btn btn-primary" type="submit">Submit interest</button></form><p id="formNotice" class="notice" role="status"></p></section>
+</main>
+<footer><a class="brand footer-brand" href="#"><span class="brand-mark">T</span><span><b>Thembelihle</b><small>Growing together</small></span></a><span>© <span id="year"></span> Thembelihle. Built for community progress.</span></footer>
+<div class="modal-backdrop" id="modalBackdrop" hidden><section class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle"><button class="modal-close" id="modalClose" aria-label="Close">×</button><span class="eyebrow" id="modalEyebrow">THEMBELIHLE</span><h2 id="modalTitle">Welcome</h2><div id="modalContent"></div></section></div>
+<script src="app.js"></script>
+</body></html>

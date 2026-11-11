@@ -1,0 +1,10 @@
+{
+  "name": "Thembelihle",
+  "short_name": "Thembelihle",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#f7f6f0",
+  "theme_color": "#123b32",
+  "description": "Community, NPO, business and education platform",
+  "icons": []
+}
